@@ -22,7 +22,6 @@ mongoose.connect("mongodb://localhost/budgettracker", {
   useFindAndModify: false
 });
 
-// routes
 app.use(require("./routes/api.js"));
 
 app.listen(PORT, () => {
